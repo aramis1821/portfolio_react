@@ -1,0 +1,20 @@
+.page {
+    margin-top: 80px;
+}
+
+.nodrag {
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.cursor-p {
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+}
