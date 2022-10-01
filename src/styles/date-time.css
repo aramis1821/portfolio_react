@@ -1,0 +1,22 @@
+
+.react-date-picker__wrapper, 
+.react-time-picker__wrapper, 
+.react-datetime-picker__wrapper {
+    border: none !important;
+}
+
+.react-date-picker__calendar {
+    transform: scale(0.8) translate(-42px, -30px)  !important;
+}
+.react-date-picker__inputGroup__input, 
+.react-time-picker__inputGroup__input,
+.react-datetime-picker__inputGroup__input {
+    outline: none;
+    color: var(--primary-color)  !important;
+}
+.react-date-picker__inputGroup__divider, 
+.react-date-picker__inputGroup__input--hasLeadingZero, 
+.react-time-picker__inputGroup__divider,
+.react-datetime-picker__inputGroup__leadingZero {
+    color: var(--primary-color)  !important;  
+}
